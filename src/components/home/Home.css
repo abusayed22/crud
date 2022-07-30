@@ -1,6 +1,6 @@
 
 .main__allStudents{
-    width: 450px;
+    width: 650px;
     margin: 0 auto;
     border: 1px solid;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -11,7 +11,7 @@
     justify-content: space-around;
 }
 .main__allStudents > li {
-    width: 400px;
+    width: 600px;
     list-style: none;
     border: none;
     margin-left: 10px;
@@ -22,4 +22,52 @@
 .btn__area{
     display: flex;
     justify-content: space-between;
+}
+.btn__box{
+    width: 250px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+}
+.btn__box>button{
+    border: none;
+    border-radius: 50px;
+}
+.main__allStudents>ol> li{
+    margin-top: 10px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.present{
+    background-color: green;
+    color: #ffff;
+}
+.absent{
+    background-color: red;
+    color: #ffff;
+}
+
+
+.main{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.present__main{
+    width: 400px;
+    border: 1px solid green;
+}
+.present__main > li {
+    list-style: none;
+}
+
+.absent__main{
+    width: 400px;
+    border: 1px solid red;
+}
+.absent__main > li {
+    list-style: none;
 }

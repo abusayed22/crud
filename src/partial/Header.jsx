@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <div>
-        <nav className="navbar navbar-expand-lg bg-light">
+        <nav className="navbar navbar-expand-lg bg-info">
   <div className="container">
     <a style={{color:'red'}} className="navbar-brand" href="#">
       Students crud
